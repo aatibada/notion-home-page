@@ -1,0 +1,203 @@
+html {
+  font-family: helvetica;
+  font-size: 16px;
+  background-color: rgb(247, 247, 247);
+}
+
+body {
+  margin: 0 0.5rem;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: rgb(247, 247, 247);
+  font-weight: bold;
+}
+
+header .left-side {
+  display: flex;
+  align-items: center;
+}
+
+header .right-side {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 2.5rem;
+} 
+
+button {
+  background-color: rgba(230, 56, 8, 0.846);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgba(214, 46, 0, 0.846)
+}
+
+button:active {
+  background-color: rgba(187, 42, 2, 0.846)
+}
+
+header img {
+  height: 35px;
+  padding-right: 0.75rem;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+
+}
+
+nav ul {
+  display: flex;
+  padding-left: 4rem;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  height: 1rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.4rem 0.6rem;
+  border-radius: 5%;
+}
+
+nav li a:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+nav li a:active {
+  background-color: rgb(233, 233, 233);
+}
+
+main {
+  position: relative;
+  top: 4rem;
+}
+
+#home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  margin: 0 3.125rem 2rem;
+}
+
+#home img {
+  height: 75%;
+}
+
+#home .content h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+#home .content p {
+  font-size: 1.25rem;
+  color: rgb(105, 103, 103);
+  font-weight: 600;
+}
+
+#home button {
+  height: 40px;
+}
+
+#templates {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 242, 242);
+  padding-bottom: 2rem;
+}
+
+.introduction {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+#templates .introduction img {
+  width: 12.5rem;
+}
+
+.introduction h2 {
+  font-size: 2.25rem;
+  margin-bottom: 0px;
+}
+
+.introduction p {
+  color: rgb(105, 103, 103);
+  font-weight: 600;
+  text-align: center;
+}
+
+.template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.template img {
+  width: 40%;
+  border-radius: 3%;
+  padding-right: 5%;
+}
+
+.template .content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.template h3 {
+  margin-bottom: 0px;
+}
+
+.template p {
+  color: rgb(105, 103, 103);
+  font-weight: 500;
+  text-align: center;
+}
+
+#community .introduction img {
+  width: 15%;
+}
+
+#community .content {
+  display: flex;
+  justify-content: center;
+}
+
+#community .content img {
+  max-width: 100%;
+}
+
+.member h3 {
+  text-align: center;
+}
